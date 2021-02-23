@@ -1,6 +1,6 @@
 ---
-title: 悦和山海
-description: 生活就是一本书，一壶茶，一个阳光明媚的下午！
+title: EC2cc
+description: 阳光照在草上，我们站着不说话，就十分美好！
 locale: zh
 email: ""
 url: ""
@@ -50,8 +50,8 @@ defaults:
       type: "pages"
     values:
       layout: "page"
-      keywords: 叶夕青兮, 原创独立博客, Erl, Jekyll, minimal lifestyle blog
-      description: 叶夕青兮，目前还是程序员。这里是她的独立博客，分享编程、建站、生活感悟、旅游随感、读书随笔、原创小说等。
+      keywords: Jekyll,blog
+      description: 分享编程、生活感悟、旅游随感、读书随笔等。
   -
     scope:
       path: ""
@@ -78,7 +78,7 @@ exclude:
   - scripts/
 deploy:
   endpoint: "oss-cn-hongkong.aliyuncs.com"
-  bucket_name: "erlim"
+  bucket_name: "ec2cc"
   expired_in: 1
   paths:
     - blog
